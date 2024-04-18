@@ -1,0 +1,24 @@
+html, body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#timeline {
+    text-align: left;
+}
+
+#timeline li > strong::after {
+    content: ' -'
+}
